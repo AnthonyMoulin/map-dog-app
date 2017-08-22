@@ -1,0 +1,13 @@
+.splash {
+    background: #ffffff;
+    position: relative;
+    height: 90%;
+    top: 5%;
+    padding: 0;
+    overflow: hidden;
+}
+.splash .load {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./../images/loading.gif);
+}

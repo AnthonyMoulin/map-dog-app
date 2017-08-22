@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'lazy_dog_regular';
+    src: url('./../font/lazy_dog-webfont.woff2') format('woff2'),
+         url('./../font/lazy_dog-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@media all and (min-width: 0px) {
+    body {
+        font-size: .5em;
+    }
+}
+@media all and (min-width: 200px) {
+    body {
+        font-size: small;
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Track Dog",
+  "description": "Track a dog on a google map",
+  "system": "map-dog",
+  "level": "user goal",
+  "actor": "Player",
+  "pre-condition": [
+	"ie > 9",
+	"accept geolocation"
+  ],
+  "nominal scenario": {
+      "a": "accept geolocation",
+	  "b": "splash",
+	  "c": "map",
+	  "d": "put dog",
+	  "e": "get dog",
+	  "f": "persist dog",
+	  "g": "track",
+	  "h": "refresh",
+	  "h": "persist"
+    }
+  },
+  "extensions": {
+    "b": [
+	   "false": "accept geolocation again"
+	],
+    "c": [
+	   "false": "trigger splash"
+	]
+  }
+}

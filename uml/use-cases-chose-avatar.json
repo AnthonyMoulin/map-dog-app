@@ -1,0 +1,28 @@
+{
+  "name": "Chose Avatar",
+  "description": "Chose an avatar associated to a dog",
+  "system": "map-dog",
+  "level": "user goal,
+  "actor": "Player",
+  "emiter": "submit",
+  "pre-condition": [
+	"ie > 9"
+  ],
+  "post-condition": [
+  ],
+  "nominal scenario": {
+      "a": "chose default",
+	  "b": "slide",
+	  "c": "previous",
+	  "d": "next"
+    }
+  },
+  "extensions": {
+    "c": [
+	   "last": "chose default"
+	],
+    "d": [
+	   "last": "chose default"
+	]
+  }
+}

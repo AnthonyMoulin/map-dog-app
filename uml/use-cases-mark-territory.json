@@ -1,0 +1,32 @@
+{
+  "name": "Mark Territory",
+  "description": "Mark the dog territory",
+  "system": "map-dog",
+  "level": "user goal",
+  "actor": "Player",
+  "emiter": "submit",
+  "pre-condition": [
+	"ie > 9",
+	"tracked"
+  ],
+  "post-condition": [
+	"win the territory"
+  ],
+  "nominal scenario": {
+      "a": "target territory",
+	  "b": "submit",
+	  "c": "submitable",
+	  "d": "put",
+	  "e": "persist",
+	  "f": "mark territory"
+    }
+  },
+  "extensions": {
+    "b": [
+	   "true": "check if is submitable"
+	],
+    "d": [
+	   "submitable": "save distant and local"
+	]
+  }
+}

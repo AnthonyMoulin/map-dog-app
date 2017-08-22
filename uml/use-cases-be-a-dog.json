@@ -1,0 +1,33 @@
+{
+  "name": "Be a dog",
+  "description": "Become a dog in map dog",
+  "system": "map-dog",
+  "level": "user goal,
+  "actor": "Player",
+  "emiter": "submit",
+  "pre-condition": [
+	"ie > 9"
+  ],
+  "post-condition": [
+	"Track dog"
+  ],
+  "nominal scenario": {
+      "a": "create dog",
+	  "b": "chose avatar",
+	  "c": "chose name",
+	  "d": "submit dog",
+	  "e": "post dog",
+	  "f": "persist dog",
+	  "g": "track dog"
+    }
+  },
+  "extensions": {
+    "b": [
+	   "false": "chose default avatar"
+	],
+    "c": [
+	   "empty": "display error for empty name",
+	   "exists": "display error for existing name"
+	]
+  }
+}

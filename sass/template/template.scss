@@ -1,0 +1,22 @@
+body {
+    font-family: 'lazy_dog_regular';
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+}
+main {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-size: 10% auto;
+    background-repeat: no-repeat;
+    background-image: url(./../images/loading.gif);
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+}

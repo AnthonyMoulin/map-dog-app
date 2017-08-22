@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'lazy_dog_regular';
+  src: url("./../font/lazy_dog-webfont.woff2") format("woff2"), url("./../font/lazy_dog-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@media all and (min-width: 0px) {
+  /* line 9, ../sass/font/font.scss */
+  body {
+    font-size: .5em;
+  }
+}
+@media all and (min-width: 200px) {
+  /* line 14, ../sass/font/font.scss */
+  body {
+    font-size: small;
+  }
+}
+/* line 1, ../sass/material/depth.scss */
+.z-depth-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* line 5, ../sass/material/depth.scss */
+.z-depth-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 9, ../sass/material/depth.scss */
+.z-depth-2-ring {
+  border-radius: 50%;
+  border: solid 1em;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), inset 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 17, ../sass/material/depth.scss */
+.z-depth-2-hover {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 22, ../sass/material/depth.scss */
+.z-depth-2-hover:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 26, ../sass/material/depth.scss */
+.z-depth-2-hover:active {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* line 30, ../sass/material/depth.scss */
+.z-depth-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 34, ../sass/material/depth.scss */
+.z-depth-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* line 38, ../sass/material/depth.scss */
+.z-depth-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+/* line 1, ../sass/splash/splash-dog-slider.scss */
+.splash.dog .slider,
+.splash.dog .slider > div,
+.splash.dog .slider span a {
+  background: #ffffff;
+}
+
+/* line 6, ../sass/splash/splash-dog-slider.scss */
+.splash.dog .slider {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  height: 15%;
+}
+
+/* line 13, ../sass/splash/splash-dog-slider.scss */
+.splash.dog .slider > div {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  top: -25%;
+  border-color: #ffffff;
+}
+
+/* line 20, ../sass/splash/splash-dog-slider.scss */
+.splash.dog .slider .control {
+  position: relative;
+  height: 100%;
+}
+
+/* line 24, ../sass/splash/splash-dog-slider.scss */
+.splash.dog .slider .control a {
+  position: relative;
+  font-size: 1.5em;
+  top: 35%;
+  height: 1em;
+  width: 1em;
+  padding: .5em 1.5em 1.5em .5em;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* line 34, ../sass/splash/splash-dog-slider.scss */
+#dogs {
+  width: 400%;
+  margin-left: 0;
+  transition: margin .5s;
+}
+
+/* line 39, ../sass/splash/splash-dog-slider.scss */
+#dogs img {
+  width: 25%;
+  padding: 0;
+}
+
+/* line 1, ../sass/splash/splash-dog.scss */
+.splash.dog input {
+  font-size: 3em;
+  text-align: center;
+  position: absolute;
+  bottom: 45%;
+  border: none;
+  border-bottom: solid 4px #000000;
+  background: transparent;
+}
+
+/* line 10, ../sass/splash/splash-dog.scss */
+.splash.dog input.error {
+  border-bottom: solid 4px red;
+}
+
+/* line 13, ../sass/splash/splash-dog.scss */
+.splash.dog .confirm {
+  text-align: center;
+  position: absolute;
+  bottom: 15%;
+  min-height: 4em;
+  background-size: auto 80%;
+}
+
+/* line 20, ../sass/splash/splash-dog.scss */
+.splash.dog .confirm a {
+  display: block;
+  font-size: 1.5em;
+  height: 2em;
+  width: 3em;
+  padding: 2em;
+  background-image: url(./../images/bone.png);
+  background-position: center;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* line 33, ../sass/splash/splash-dog.scss */
+input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+/* line 36, ../sass/splash/splash-dog.scss */
+input:-ms-input-placeholder {
+  color: #000000;
+}
+
+/* line 39, ../sass/splash/splash-dog.scss */
+input::-ms-input-placeholder {
+  color: #000000;
+}
+
+/* line 42, ../sass/splash/splash-dog.scss */
+input:-moz-placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+/* line 46, ../sass/splash/splash-dog.scss */
+input::-moz-placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+/* line 1, ../sass/splash/splash-error.scss */
+.splash.error {
+  background-image: url(./../images/splash-error.png);
+  background-repeat: no-repeat;
+  background-position: center 35%;
+  background-size: 50% auto;
+}
+
+/* line 7, ../sass/splash/splash-error.scss */
+.splash.error h1 {
+  position: absolute;
+  bottom: 25%;
+  padding: 0 10%;
+}
+
+/* line 1, ../sass/splash/splash.scss */
+.splash {
+  background: #ffffff;
+  position: relative;
+  height: 90%;
+  top: 5%;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 9, ../sass/splash/splash.scss */
+.splash .load {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./../images/loading.gif);
+}
+
+/* line 1, ../sass/template/reset.scss */
+html, body, header, nav, main, section, h1, h2, h3, h4, h5, h6, ul, p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/template/reset.scss */
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+/* line 1, ../sass/template/template.scss */
+body {
+  font-family: 'lazy_dog_regular';
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 7, ../sass/template/template.scss */
+main {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background-position: center;
+  background-size: 10% auto;
+  background-repeat: no-repeat;
+  background-image: url(./../images/loading.gif);
+}
+
+/* line 16, ../sass/template/template.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/* line 19, ../sass/template/template.scss */
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+html, body, header, nav, main, section, h1, h2, h3, h4, h5, h6, ul, p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
