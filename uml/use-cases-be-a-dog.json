@@ -2,7 +2,7 @@
   "name": "Be a dog",
   "description": "Become a dog in map dog",
   "system": "map-dog",
-  "level": "user goal,
+  "level": "user goal",
   "actor": "Player",
   "emiter": "submit",
   "pre-condition": [

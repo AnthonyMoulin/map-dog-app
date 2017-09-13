@@ -328,7 +328,8 @@ this.mapDog.map.google = (
                 position: getPosition(dog),
                 map: map,
                 title : dog.name,
-                icon: "/images/dog-" + dog.avatar + "-icon.png"    
+                // icon: "/images/dog-" + dog.avatar + "-icon.png"    
+				icon: "http://localhost/dev.map-dog.game/images/" + "dog-" + dog.avatar + "-icon.png"
             });
         }
 

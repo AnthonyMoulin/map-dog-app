@@ -15,9 +15,9 @@ this.mapDog.dog = (
         /**
          * @type String
          */
-        var endPoint = root.location.href.replace("map-dog", "api.map-dog")
-                     + "dog/";
-
+        // var endPoint = root.location.href.replace("map-dog", "api.map-dog")
+                     // + "dog/";
+			var endPoint = "http://localhost/dev.api.map-dog.game/web/dog/";
         return (
 
             /**
