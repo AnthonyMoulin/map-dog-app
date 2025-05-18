@@ -1,4 +1,4 @@
 
 # map-dog-app
 
-app pour MapDog
+app for MapDog 
